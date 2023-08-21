@@ -15,3 +15,5 @@ pipeline {
                 sh 'docker image build -t spc:1.0 .'
             }
         }
+    }
+}

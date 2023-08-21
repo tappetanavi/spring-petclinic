@@ -12,7 +12,7 @@ pipeline {
         }
         stage('build') {
             steps {
-                sh 'docker image build -t spc:1.0 .'
+                sh 'docker image build -t tnaveen/spc:latest .'
             }
         }
     }
